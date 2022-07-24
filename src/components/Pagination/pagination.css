@@ -1,0 +1,10 @@
+.MuiPaginationItem-root{
+    color: rgba(0,0,0,.8) !important;
+    background-color: #B5BABE !important;
+    border: none;
+}
+
+.MuiPagination-ul .Mui-selected{
+    color: black !important;
+    background-color: white !important;
+}

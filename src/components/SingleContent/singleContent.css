@@ -1,0 +1,99 @@
+.box1 {
+    height: 450px;
+
+}
+
+.box {
+    position: relative;
+    width: 350px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, .3);
+    transition: .35s linear;
+    height: 98%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.box:hover {
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, .8);
+}
+
+.box .img img {
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+.box .img {
+    position: relative;
+    height: 250px;
+}
+
+.box .img button {
+    padding: 0;
+    width: 100%;
+    height: 250px;
+}
+
+.box .img .rating {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 4px;
+    box-sizing: border-box;
+    border-bottom-left-radius: 10px;
+}
+
+.box .texts {
+    padding: 0 10px;
+}
+
+.box .brand-name {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.box .description {
+    font-family: sans-serif;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-dialog {
+    margin: 30vh auto !important;
+}
+
+.modal, .show {
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+.info-link {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgba(0, 0, 255, 0.6);
+    cursor: pointer;
+    position: absolute;
+    bottom: 15px;
+    transition: .2s linear;
+}
+/*.info-link:after{
+    content: '';
+    display: block;
+    position: absolute;
+    height: 1px;
+    width: 0;
+    background-color: rgba(0, 0, 255, 0.6);
+    transition: .2s linear;
+}
+.info-link:hover:after{
+    width: 100%;
+}*/
+
+
+.info-link:active {
+    font-style: italic;
+    color: blue;
+}

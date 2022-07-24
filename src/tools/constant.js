@@ -1,0 +1,1 @@
+export const PATH_NAME="http://localhost:3001"

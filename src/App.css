@@ -1,0 +1,7 @@
+/**{
+    font-family: Montserrat !important;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}*/
+@import "~react-alice-carousel/lib/alice-carousel.css";

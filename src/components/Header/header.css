@@ -1,0 +1,9 @@
+.for-search img{
+    width: 40px;
+    padding: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.for-search .search-input{
+    border-right: none;
+}

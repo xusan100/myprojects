@@ -1,0 +1,54 @@
+.info-box{
+    border-radius: 10px;
+    overflow: hidden;
+}
+.info-box .img img{
+    width: 100%;
+}
+.info-box .texts .infos{
+    font-family: sans-serif;
+    color: #272f3e;
+}
+.info-box .texts .infos{
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.info-box .texts .infos span {
+    color: rgba(39, 47, 62, 0.8);
+    font-size: 16px;
+    letter-spacing: 1px;
+
+}
+.info-box .texts .infos:last-child {
+    margin-bottom: 0;
+}
+.info-box .texts .infos:nth-child(2){
+    color: rgba(39, 47, 62, 0.8);
+    font-size: 16px;
+    margin-bottom: 12px;
+    margin-top: 5px;
+}
+.info-box .texts .title{
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    margin-top: 10px;
+}
+.container1{
+    height: 100%;
+    overflow: hidden;
+}
+
+/*
+
+.carousel-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: scroll;
+    height: 100%;
+}
+.carousel-img img{
+    width: 350px;
+}*/
